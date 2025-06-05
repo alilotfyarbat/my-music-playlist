@@ -72,7 +72,7 @@ git clone https://github.com/alilotfyarbat/my-music-playlist.git
 ### ۲. راه‌اندازی دیتابیس
 
 - یک دیتابیس جدید بسازید (مثلاً: `music_playlist`)
-- فایل `database.sql` (در صورت وجود) را ایمپورت کنید یا جداول مورد نیاز را طبق مستندات بسازید.
+- فایل `music.sql` (در صورت وجود) را ایمپورت کنید یا جداول مورد نیاز را طبق مستندات بسازید.
 
 ### ۳. تنظیمات اتصال به دیتابیس
 
@@ -96,9 +96,9 @@ git clone https://github.com/alilotfyarbat/my-music-playlist.git
 my-music-playlist/
 │
 ├── index.php           # صفحه اصلی پلی‌لیست
-├── login.php           # صفحه ورود
-├── register.php        # صفحه ثبت‌نام
+├── login.php           # صفحه ورود و ثبت نام
 ├── app.js              # اسکریپت‌های جاوااسکریپت
+├── api.php             # فایل های مدیریت اتصال و پخش
 ├── config.php          # تنظیمات اتصال به دیتابیس
 ├── logo.png            # لوگوی پروژه
 ├── default-album.jpg   # تصویر پیش‌فرض کاور آهنگ
